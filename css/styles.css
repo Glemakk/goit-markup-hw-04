@@ -50,6 +50,11 @@ img {
   padding: 0 15px;
 }
 
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
 /*==================== HEADER ====================*/
 
 .header {
@@ -379,9 +384,7 @@ img {
   fill: var(--bg-color);
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
+.social-list-item .social-icon {
   fill: #afb1b8;
 }
 /*==================== END OF TEAM ====================*/
@@ -449,6 +452,22 @@ img {
   background-color: var(--footer-bg-color);
 }
 
+b {
+  display: block;
+  margin-top: 87px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--bg-color);
+}
+
+.footer .container {
+  display: flex;
+}
+
 .footer-logo {
   display: inline-block;
   padding-top: 60px;
@@ -490,6 +509,24 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+
+.footer-social-side {
+  margin-left: 70px;
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-list-footer-item .social-icon {
+  fill: var(--bg-color);
+}
+
+.social-list-footer-item a {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 /*==================== END OF FOOTER ====================*/
 
