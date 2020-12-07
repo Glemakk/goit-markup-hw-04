@@ -50,6 +50,11 @@ img {
   padding: 0 15px;
 }
 
+.block {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .social-icon {
   width: 20px;
   height: 20px;
@@ -214,7 +219,6 @@ img {
 }
 
 .features {
-  padding-bottom: 94px;
   padding-top: 94px;
 }
 
@@ -266,7 +270,6 @@ img {
 /*==================== ABOUT & TEAM ====================*/
 .about {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .about-list {
@@ -299,13 +302,11 @@ img {
 }
 
 .team-title {
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 94px;
   /* На перспективу при добавлении контента */
   /* flex-wrap: wrap; */
 }
@@ -390,13 +391,11 @@ img {
   letter-spacing: 0.03em;
 
   color: var(--primary-font-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
 .clients-list {
   display: flex;
-  padding-bottom: 94px;
 }
 
 .clients-item:not(:last-child) {
@@ -433,11 +432,12 @@ img {
 /*==================== FOOTER ====================*/
 .footer {
   background-color: var(--footer-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 b {
   display: block;
-  margin-top: 87px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -453,7 +453,6 @@ b {
 
 .footer-logo {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
   color: var(--bg-color);
   text-decoration: none;
@@ -467,10 +466,6 @@ b {
 
 .footer-logo span {
   color: var(--accent-color);
-}
-
-.address {
-  padding-bottom: 60px;
 }
 
 .address-item:not(:last-child) {
@@ -496,6 +491,7 @@ b {
 
 .footer-social-side {
   margin-left: 70px;
+  margin-top: 12px;
 }
 
 .social-list-footer {
@@ -510,6 +506,10 @@ b {
 
 .social-list-footer-item a {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-list-footer-item:not(:last-child) {
+  margin-right: 10px;
 }
 /*==================== END OF FOOTER ====================*/
 
@@ -552,10 +552,6 @@ b {
 /*==================== END OF FILTERS ====================*/
 
 /*==================== PORTFOLIO LIST ====================*/
-.portfolio {
-  padding-top: 94px;
-}
-
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -569,9 +565,9 @@ b {
   margin-bottom: 30px;
 }
 
-.portfolio-list-item:nth-child(n + 7) {
+/* .portfolio-list-item:nth-child(n + 7) {
   margin-bottom: 94px;
-}
+} */
 
 .portfolio-list-item {
   box-sizing: border-box;
